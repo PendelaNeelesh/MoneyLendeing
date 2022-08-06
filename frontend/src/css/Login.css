@@ -1,0 +1,125 @@
+.login-cnt{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(243, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-cnt{
+    min-height: 60%;
+    min-width: 50%;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-rows:10% 70% 20%;
+    padding: 10px;
+}
+.text-div{
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    top: 10px;
+    border-radius: 15px;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.form{
+    grid-row-start:2;
+    grid-row-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.form-set{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.register-cnt{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.form-message{
+    color: grey;
+    margin: 2px;
+}
+.no-acc-btn{
+    background-color:rgb(117, 117, 201);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px;
+}
+.no-acc-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+label input{
+    display: inline-block;
+}
+.label-field{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.input-field{
+    border-bottom: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right:0px;
+    height: 40px;
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+.login-btn{
+    font-size: 25px;
+}
+.submit-btn{
+    background-color: rgb(139, 228, 131);
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.login-btn:hover{
+    cursor: pointer;
+}
+#err-cnt{
+    color: red;
+}
+
+@media (max-width: 400px) {
+    .register-cnt{
+        flex-flow: column;
+    }
+}
+
+@media (max-height: 580px) {
+    .text-div{
+        height: 0px;
+        overflow: hidden;
+        background-color: white;
+    }
+}

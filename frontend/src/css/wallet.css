@@ -1,0 +1,209 @@
+.wallet-cnt{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-width: 100%;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(243,241,241);
+    padding: 10px;
+}
+.line-1-wallet{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.name-phone{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.wallet-balance{
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+}
+.line-2-wallet{
+    background-color: white;
+    width: 100%;
+    color: rgb(85,26,139);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    height: 60px;
+    position: sticky;
+    text-align: center;
+}
+.line-3-wallet{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.line-3-wallet-child{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    font-size: large;
+    text-align: left;
+}
+.line-4-wallet{
+    background-color: white;
+    width: 100%;
+    color: rgb(85,26,139);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    height: 60px;
+    position: sticky;
+    text-align: center;
+}
+.line-5-wallet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.transac-head{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color:yellowgreen;
+}
+.transac-head-red{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color:rgb(233, 94, 52);
+}
+.request-cnt{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+}
+#request{
+    width: fit-content;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(115, 115, 241);
+    border-radius: 10px;
+    margin: 5px;
+}
+.req-frm{
+    padding: 10px;
+    margin: 5px;
+
+}
+#mail:hover{
+    cursor: pointer;
+}
+.req-btn-cnt{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.req-accept-btn{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    font-size: 15px;
+    font-weight: bold;
+}
+.req-reject-btn{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(245, 97, 97);
+    font-size: 15px;
+    font-weight: bold;
+}
+.req-accept-btn:hover{
+    cursor: pointer;
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+
+}
+.req-reject-btn:hover{
+    cursor: pointer;
+    background-color: #e52e2e;
+    box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+#bal-err-sub{
+    color: red;
+    width: 100%;
+}
+.line-6-wallet{
+    padding: 10px;
+    margin: auto;
+    margin-top: -10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+#message-btn{
+    width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+#special{
+    width: 100%;
+}
+.add-sub-btn{
+    padding:10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: blanchedalmond;
+}
+.add-sub-btn:hover{
+    cursor: pointer;
+}
+#special-1{
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+}
+@media (max-width:400px) {
+    .line-1-wallet{
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+    }
+    .name-phone{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        padding: 5px;
+    }
+    .wallet-balance{
+        width: 100%;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        justify-content: center;
+    }
+}

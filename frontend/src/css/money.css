@@ -1,0 +1,29 @@
+.money-cnt{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(243,241,241)
+}
+#money-1{
+    background-color: white;
+    width: 50%;
+    margin: 20px;
+}
+.money-text{
+    margin: 30px;
+}
+.update-btn{
+    background-color: rgb(236, 116, 72);
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.update-btn:hover{
+    cursor: pointer;
+}

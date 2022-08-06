@@ -1,0 +1,13 @@
+.footer{
+    margin: 5px;
+   background-color: black;
+   color: white;
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: space-around;
+  }
+   .foot-part{
+     padding: 10px;
+     margin: 5px;
+   }
